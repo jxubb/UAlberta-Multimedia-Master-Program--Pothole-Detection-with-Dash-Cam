@@ -9,11 +9,10 @@ The modified files can be found in [this Github repository](https://github.com/j
 
 # Contents
 
-- ## [Setup](/documentation/SETUP.md)
-- ## [Preparing the Data](/documentation/PREPARING_THE_DATA.md)
-- ## [Running the Project](/documentation/RUNNING_THE_PROJECT.md)
-- ## [Dataset and Files](/documentation/DATASET_AND_FILES.md)
-- ## [Troubleshooting](/documentation/troubleshooting/TROUBLESHOOTING.md)
+* [Set up](#Set up)
+* [Dataset](#Data set)
+* [Running the project](#Running the project)
+* [Results](#Results)
 
 # Results
 
