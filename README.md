@@ -1,5 +1,5 @@
 # UAlberta-Multimedia-Master-Program---Pothole-Detection-with-Dash-Cam-
-This is a course project for UAlberta Multimedia Master Program. The main purpose of this project is pothole detection with tiny YOLOv3. 
+This is a course project for UAlberta Multimedia Master Program. The main purpose of this project is to achieve pothole detection with tiny YOLOv3. 
 
 ### [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
 
