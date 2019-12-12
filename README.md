@@ -9,14 +9,16 @@ The modified files can be found in [this Github repository](https://github.com/j
 
 # Contents
 
-* [Set up](#Set up)
-* [Dataset](#Data set)
+* [Set up](#Set-up)
+* [Dataset](#Data-set)
 * [Running the project](#Running the project)
 * [Results](#Results)
 
-### Set up
+# Set up
 
 # Data set
+
+# Running the project
 
 # Results
 
