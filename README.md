@@ -11,7 +11,7 @@ The modified files can be found in [this Github repository](https://github.com/j
 
 * [Set up](#Set-up)
 * [Dataset](#Data-set)
-* [Running the project](#Running the project)
+* [Running the project](#Running-the-project)
 * [Results](#Results)
 
 # Set up
