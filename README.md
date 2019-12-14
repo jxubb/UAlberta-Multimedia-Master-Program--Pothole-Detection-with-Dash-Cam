@@ -21,9 +21,23 @@ The modified files can be found in [this Github repository](https://github.com/j
 
 * Follow [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) to compile darknet.
 
-* Then, follow the following steps to modify tiny YOLOv3 to  detect custom object:
+* Then, implement the following steps to modify tiny YOLOv3 to  detect custom object:
 
+ Create file `yolov3-tiny-obj.cfg` with the same content as in `yolov3-tiny.cfg`
 
+  * change line batch to [`batch=64`](https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L3)
+  * change line subdivisions to [`subdivisions=8`](https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L4)
+  * change line max_batches to (`classes*2000` but not less than `4000`), f.e. [`max_batches=6000`](https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L20) if you train for 3 classes
+  * change line steps to 80% and 90% of max_batches, f.e. [`steps=4800,5400`](https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L22)
+  * change line `classes=80` to 1 in each of 3 `[yolo]`-layers:
+      * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3-tiny.cfg#L610
+      * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3-tiny.cfg#L696
+      * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3-tiny.cfg#L783
+  * change [`filters=255`] to filters=18 in the 3 `[convolutional]` before each `[yolo]` layer
+      * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3-tiny.cfg#L603
+      * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3-tiny.cfg#L689
+      * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3-tiny.cfg#L776
+      
 # Data set
 
 Our  ”Edmonton  pothole”  data  set  is  composed  of  325labelled  images.  We  took  25  Edmonton  pothole  videos  withdashcam around the University of Alberta during daylight. Thevideos add up to about 25 minutes and can be decomposed intoapproximately  45000  images. You can download the dataset [here](https://drive.google.com/drive/folders/1wWwiGBUo0C_ElA8B_Z0iha_uVJyWKgQX).
