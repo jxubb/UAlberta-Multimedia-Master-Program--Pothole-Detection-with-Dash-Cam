@@ -17,6 +17,8 @@ The modified files can be found in [this Github repository](https://github.com/j
 # Set up
 Environment: Windows10, CUDA10.0, Cudnn7.6, OpenCV3.4.1 .
 Other requirementts can be find [here](https://github.com/AlexeyAB/darknet#requirements)
+Follow [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) to compile darknet.
+
 
 # Data set
 
