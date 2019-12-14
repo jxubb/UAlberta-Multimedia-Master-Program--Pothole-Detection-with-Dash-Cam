@@ -3,7 +3,7 @@ This is a course project for UAlberta Multimedia Master Program. The main purpos
 
 ### [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
 
-This project is modofied based on [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) of Darknet Yolo that runs on Windows and Linux.
+This project is modofied based on [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) of Darknet tiny Yolov3 that runs on Windows and Linux.
 Before implementing pothole detection with this repository, please follow the instruction of [AlexeyDB's fork](https://github.com/AlexeyAB/darknet). Custom object detection tutorial can also be found in [How to train](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects) in AlexeyDB's README file. 
 The modified files can be found in [this Github repository](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam).
 
@@ -16,8 +16,9 @@ The modified files can be found in [this Github repository](https://github.com/j
 
 # Set up
 Environment: Windows10, CUDA10.0, Cudnn7.6, OpenCV3.4.1 .
-Other requirementts can be find [here](https://github.com/AlexeyAB/darknet#requirements)
+Other requirementts can be find [here](https://github.com/AlexeyAB/darknet#requirements).
 Follow [AlexeyDB's fork](https://github.com/AlexeyAB/darknet) to compile darknet.
+Then, follow the following steps to modify tiny YOLOv3 to  detect custom object:
 
 
 # Data set
