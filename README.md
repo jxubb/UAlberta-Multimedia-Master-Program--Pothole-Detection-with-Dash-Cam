@@ -18,6 +18,7 @@ The modified files can be found in [this Github repository](https://github.com/j
 
 
 # Data set
+
 Our  ”Edmonton  pothole”  data  set  is  composed  of  325labelled  images.  We  took  25  Edmonton  pothole  videos  withdashcam around the University of Alberta during daylight. Thevideos add up to about 25 minutes and can be decomposed intoapproximately  45000  images. You can download the dataset [here](https://drive.google.com/drive/folders/1wWwiGBUo0C_ElA8B_Z0iha_uVJyWKgQX).
 
 # Running the project
