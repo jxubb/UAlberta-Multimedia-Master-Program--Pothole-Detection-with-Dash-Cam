@@ -68,8 +68,7 @@ Test with this command line:   `darknet.exe detector test data/obj.data yolov3-t
 ## Images
 |||
 |-|-|
-|[![Image_1](/test_im_n_vid/229.jpg)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229.jpg)
-|[![Image_2](/test_im_n_vid/229_result.png)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229_result.png)
+|[![Image_1](/test_im_n_vid/229.jpg)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229.jpg)![Image_2](/test_im_n_vid/229_result.png)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229_result.png)｜
 |[![Image_3](/test_im_n_vid/229_result.png)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/235.jpg)
 |[![Image_4](/test_im_n_vid/235_result.jpg)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/235_result.png)
 ## Videos
