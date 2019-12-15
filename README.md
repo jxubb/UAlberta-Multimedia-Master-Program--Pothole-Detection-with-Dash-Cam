@@ -67,6 +67,4 @@ Our  ”Edmonton  pothole”  data  set  is  composed  of  325labelled  images. 
 
 ## Videos
 
-[![Video_1](/media/gifs/Pothole_Detection_1.gif)](/media/videos/Pothole_Detection_1.mp4)
-
-[![Video_2](/media/gifs/Pothole_Detection_2.gif)](/media/videos/Pothole_Detection_2.mp4)
+[![Test video](https://www.youtube.com/watch?v=JAY3CWlcmcM)
