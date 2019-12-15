@@ -66,9 +66,8 @@ Test with this command line:   `darknet.exe detector test data/obj.data yolov3-t
 # Results
 
 ## Images
-<img src="229.jpg" width="425"/> <img src="229_result.png" width="425"/>
+<img src="https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229.jpg" width="425"/> <img src="https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229_result.png" width="425"/>
 
-<img src="https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229.jpg" width="200"/> <img src="https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229_result.png" width="300"/>
 
 |||
 |-|-|
