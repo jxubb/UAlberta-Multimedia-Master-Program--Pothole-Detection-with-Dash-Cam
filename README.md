@@ -30,7 +30,7 @@ The modified files can be found in [this Github repository](https://github.com/j
   * change line max_batches to `4000`, f.e. [`max_batches=4000`](https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L20) if you train for 3 classes
   * change line steps to 80% and 90% of max_batches, f.e. [`steps=3200,3600`](https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L22)
   * change line `classes=80` to `1` in each of 3 `[yolo]`-layers:
-      * https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov3-tiny.cfg#L610
+      * https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov3-tiny.cfg#L135
       * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L610
       * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L696
       * https://github.com/AlexeyAB/darknet/blob/0039fd26786ab5f71d5af725fc18b3f521e7acfd/cfg/yolov3.cfg#L783
