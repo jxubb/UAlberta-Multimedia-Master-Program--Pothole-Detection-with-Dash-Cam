@@ -56,7 +56,13 @@ Our  ”Edmonton  pothole”  data  set  is  composed  of  325labelled  images. 
       
 # Running the project
 
-Train with the following cmd line:darknet.exe detector train data/obj.data yolov3-tiny-obj.cfg yolov3-tiny.conv.15
+Train with this command line: `darknet.exe detector train data/obj.data yolov3-tiny-obj.cfg yolov3-tiny.conv.15`
+
+Or just train with `-map` flag: 
+
+`darknet.exe detector train data/obj.data yolov3-tiny-obj.cfg yolov3-tiny.conv.15 -map`
+
+Test with this command line: 
 
 
 
