@@ -69,10 +69,9 @@ Test with this command line:   `darknet.exe detector test data/obj.data yolov3-t
 |||
 |-|-|
 |[![Image_1](/test_im_n_vid/229.jpg)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229.jpg)
-|[![Image_2](/media/images/Pothole_Detection_2.jpg)](https://github.com/sekilab/RoadDamageDetector)|
-|![Image_3](/media/images/Test_Image_1.jpg)|![Image_3_Detection](/media/images/Results_1.jpg)|
-|![Image_4](/media/images/Test_Image_2.jpg)|![Image_4_Detection](/media/images/Results_2.jpg)|
-
+|[![Image_2](/test_im_n_vid/229_result.jpg)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/229_result.png)
+|![Image_3](/test_im_n_vid/235.jpg)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/235.jpg)
+|![Image_4](/test_im_n_vid/235_result.jpg)](https://github.com/jxubb/UAlberta-Multimedia-Master-Program--Pothole-Detection-with-Dash-Cam/blob/master/test_im_n_vid/235_result.jpg)
 ## Videos
 
 [![tiny Yolo v3](http://img.youtube.com/vi/JAY3CWlcmcM/0.jpg)](https://www.youtube.com/watch?v=JAY3CWlcmcM "tiny Yolo v3")
