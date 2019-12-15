@@ -67,4 +67,4 @@ Our  ”Edmonton  pothole”  data  set  is  composed  of  325labelled  images. 
 
 ## Videos
 
-[![Test video](https://www.youtube.com/watch?v=JAY3CWlcmcM)
+[![tiny Yolo v3](http://img.youtube.com/vi/VOC3huqHrss/0.jpg)](https://www.youtube.com/watch?v=JAY3CWlcmcM "tiny Yolo v3")
